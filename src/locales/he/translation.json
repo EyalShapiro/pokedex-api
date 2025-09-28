@@ -1,0 +1,57 @@
+{
+	"Pokedex": "פוקדקס",
+	"Items": "פריטים",
+	"clear-type": "ניקיון סוגים",
+	"search-items": "חפש פריטים...",
+	"search-pokemon": "חפש פוקימונים...",
+	"Toggle theme": "שנה ערכת נושא",
+	"Language": {
+		"base": "שפה",
+		"English": "אנגלית",
+		"Hebrew": "עברית"
+	},
+
+	"Loading...": "טוען...",
+	"Error fetching items": "שגיאה בטעינת פריטים",
+	"Previous": "הקודם",
+	"Next": "הבא",
+	"Page": "עמוד",
+	"home.title": "פוקדקס",
+	"home.context": "ברוכים הבאים לפוקדקס האינטראקטיבי! חקרו וגלו פוקימונים מכל הדורות.",
+	"nav.home": "בית",
+	"nav.items": "פריטים",
+
+	"All Generations": "כל הדורות",
+	"generations": {
+		"generation-i": "דור 1 (Kanto)",
+		"generation-ii": "דור 2 (Johto)",
+		"generation-iii": "דור 3 (Hoenn)",
+		"generation-iv": "דור 4 (Sinnoh)",
+		"generation-v": "דור 5 (Unova)",
+		"generation-vi": "דור 6 (Kalos)",
+		"generation-vii": "דור 7 (Alola)",
+		"generation-viii": "דור 8 (Galar)",
+		"generation-ix": "דור 9 (Paldea)"
+	},
+
+	"types": {
+		"normal": "נורמלי",
+		"fire": "אש",
+		"water": "מים",
+		"electric": "חשמל",
+		"grass": "דשא",
+		"ice": "קרח",
+		"fighting": "לחימה",
+		"poison": "רעל",
+		"ground": "אדמה",
+		"flying": "מעופף",
+		"psychic": "על־חושי",
+		"bug": "חרק",
+		"rock": "סלע",
+		"ghost": "רוח",
+		"dragon": "דרקון",
+		"dark": "אפל",
+		"steel": "פלדה",
+		"fairy": "פיה"
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"Pokedex": "Pokedex",
+	"Items": "Items",
+	"clear-type": "clear types",
+	"search-items": "Search items...",
+	"search-pokemon": "Search Pokémon...",
+	"Toggle theme": "Toggle theme",
+	"Language": {
+		"base": "Language",
+
+		"English": "English",
+		"Hebrew": "Hebrew"
+	},
+	"Loading...": "Loading...",
+	"Error fetching items": "Error fetching items",
+	"Previous": "Previous",
+	"Next": "Next",
+	"Page": "Page",
+	"home.title": "Pokédex",
+	"home.context": "Welcome to the interactive Pokédex! Explore and discover Pokémon from all generations.",
+	"nav.home": "Home",
+	"nav.items": "Items",
+
+	"All Generations": "All Generations",
+	"generations": {
+		"generation-i": "Generation I (Kanto)",
+		"generation-ii": "Generation II (Johto)",
+		"generation-iii": "Generation III (Hoenn)",
+		"generation-iv": "Generation IV (Sinnoh)",
+		"generation-v": "Generation V (Unova)",
+		"generation-vi": "Generation VI (Kalos)",
+		"generation-vii": "Generation VII (Alola)",
+		"generation-viii": "Generation VIII (Galar)",
+		"generation-ix": "Generation IX (Paldea)"
+	},
+
+	"types": {
+		"normal": "Normal",
+		"fire": "Fire",
+		"water": "Water",
+		"electric": "Electric",
+		"grass": "Grass",
+		"ice": "Ice",
+		"fighting": "Fighting",
+		"poison": "Poison",
+		"ground": "Ground",
+		"flying": "Flying",
+		"psychic": "Psychic",
+		"bug": "Bug",
+		"rock": "Rock",
+		"ghost": "Ghost",
+		"dragon": "Dragon",
+		"dark": "Dark",
+		"steel": "Steel",
+		"fairy": "Fairy"
+	}
+}
