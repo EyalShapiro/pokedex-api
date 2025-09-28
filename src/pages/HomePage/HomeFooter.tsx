@@ -7,7 +7,7 @@ type HomeFooterProps = {
 	filters: PokemonFiltersType;
 	total: number;
 };
-
+const PER_PAGE_OPTIONS = [10, 20, 50, 100];
 export function HomeFooter({ updateFilter, filters, total }: HomeFooterProps) {
 	const { t } = useTranslation();
 
@@ -48,10 +48,11 @@ export function HomeFooter({ updateFilter, filters, total }: HomeFooterProps) {
 					})
 				}
 			>
-				<option value={10}>10 {t("per page")}</option>
-				<option value={20}>20 {t("per page")}</option>
-				<option value={50}>50 {t("per page")}</option>
-				<option value={100}>100 {t("per page")}</option>
+				{PER_PAGE_OPTIONS.map((option) => (
+					<option key={option} value={option}>
+						{option} {t("per page")}
+					</option>
+				))}
 			</BaseSelect>
 		</div>
 	);

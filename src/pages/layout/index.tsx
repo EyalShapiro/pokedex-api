@@ -1,7 +1,7 @@
 import { Outlet } from "react-router";
 import { ThemeProvider } from "../../context/ThemeContext";
 import { LanguageProvider } from "../../context/LanguageContext";
-import Header from "../../components/Header/Header";
+import Header from "./Header";
 
 export default function Layout() {
 	return (
