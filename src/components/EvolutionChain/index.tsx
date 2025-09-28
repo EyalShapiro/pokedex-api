@@ -17,7 +17,7 @@ export default function EvolutionChainComponent({ chain }: EvolutionChainProps) 
 			<Link to={`/pokemon/${pokemonId}`} className="text-center">
 				<span className="text-sm">{getPokemonIdShow(pokemonId)}</span>
 				<img
-					src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemonId}.png`}
+					src={data.sprites.other["official-artwork"].front_default}
 					alt={chain.species.name}
 					className="mx-auto h-24 w-24"
 				/>
@@ -28,7 +28,7 @@ export default function EvolutionChainComponent({ chain }: EvolutionChainProps) 
 					<span className="mx-4 text-2xl">&rarr;</span>
 					<div className="flex flex-col gap-4">
 						{chain.evolves_to.map((evolution) => (
-							<EvolutionChainComponent key={evolution.species.name} chain={evolution} />
+							<EvolutionChainComponent key={JSON.stringify(evolution.species)} chain={evolution} />
 						))}
 					</div>
 				</div>
